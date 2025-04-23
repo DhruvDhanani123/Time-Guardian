@@ -1,0 +1,27 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --darker: #371B58;
+    --dark: #4E31AA;
+    --light: #892CDC;
+    --lighter: #D4ADFC;
+    --hover: #7a41ff;
+    --white: white;
+}
+
+.chart {
+    background: 'var(--darker)';
+    border-radius : '20px';
+    overflow-x: auto;
+    width: 100%;
+}
+
+@media (max-width: 767px) {
+    .chart {
+        width: 700px !important;
+    }
+}

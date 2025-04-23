@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tagalog&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
+}
+
+:root {
+    --darker: #371B58;
+    --dark: #4E31AA;
+    --light: #892CDC;
+    --lighter: #D4ADFC;
+    --hover: #7a41ff;
+    --white: white;
+}
+
+.pacont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 10px 0px;
+}
+
+.frm{
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.label {
+    color: var(--dark);
+    font-weight: bold;
+}
+
+.type {
+    box-shadow: none !important;
+    border: 1px solid var(--darker) !important;
+}
+
+.type:focus {
+    border: 2px solid var(--dark) !important;
+}
+
+.fogPass{
+    text-align: end;
+    color: var(--dark);
+}
+
+.register{
+    text-align: start;
+    color: var(--dark);
+}
+
+.btn{
+    background-color: var(--dark) !important;
+    color: var(--white) !important;
+    width: 100% !important;
+    font-size: 20px !important;
+    margin-bottom: 1.5rem;
+}
+.btn:hover{
+    background-color: var(--hover) !important;
+    color: var(--white) !important;
+    background-color:var(--hover) !important;
+}
+
+@media only screen and (max-width: 991px) {
+    .frm {
+        padding: 40px 20px;;
+    }
+
+    .lottie {
+        display: none;
+    }
+}
+
+.link{
+    color: var(--dark) !important;
+    text-decoration: none;
+}
+.link:hover{
+    color: var(--hover) !important;
+}

@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --darker: #371B58;
+    --dark: #4E31AA;
+    --light: #892CDC;
+    --lighter: #D4ADFC;
+    --hover: #7a41ff;
+    --white: white;
+}
+
+.table{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    border : 2px solid var(--light);
+}
+
+.thead{
+    color:var(--darker);
+    background: var(--lighter);
+    height: 50px;
+}
+
+.trow{
+    color: var(--dark);
+}
+
+tr:hover {
+    background-color: var(--lighter);
+}

@@ -1,0 +1,23 @@
+@media only screen and (max-width: 500px) {
+
+   th,
+   td {
+      font-size: small;
+   }
+
+}
+
+* {
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+}
+
+:root {
+   --darker: #371B58;
+   --dark: #4E31AA;
+   --light: #892CDC;
+   --lighter: #D4ADFC;
+   --hover: #7a41ff;
+   --white: white;
+}

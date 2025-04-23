@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --darker: #371B58;
+    --dark: #4E31AA;
+    --light: #892CDC;
+    --lighter: #D4ADFC;
+    --hover: #7a41ff;
+    --white: white;
+}
+
+.img{
+    min-height: 90vh;
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .img {
+        display: none;
+    }
+}
+
+.top{
+    padding: 10px;
+    background: var(--darker);
+    border-radius: 10px;
+}
+
+.data{
+    border-radius: 10px;
+    border: 1px solid red;
+    padding: 10px;
+    background: var(--lighter);
+}
