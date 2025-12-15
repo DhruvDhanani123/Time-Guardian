@@ -1,2 +1,6 @@
-const mongoose =require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/MyProject');
+require('dotenv').config();
+const mongoose = require('mongoose');
+
+mongoose.connect(process.env.MONGO_URI)
+  .then(() => console.log('MongoDB Atlas connected ✅'))
+  .catch(err => console.error('MongoDB connection error ❌', err));
